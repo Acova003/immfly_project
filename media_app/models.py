@@ -3,8 +3,8 @@ from django.db import models
 class Channel(models.Model):
     title = models.CharField(max_length=255)
     language = models.CharField(max_length=2)
-    picture = models.ImageField(upload_to='channel_pictures/')
-    description = models.ManyToManyField('description', blank=True)
+    poster_image = models.URLField(max_length=255)
+    description = models.TextField()
     maturity_rating = models.CharField(max_length=255)
     spoken_lang = models.CharField(max_length=255)
     caption_lang = models.CharField(max_length=255)
