@@ -26,7 +26,7 @@ class Season(models.Model):
 
 class Episode(models.Model):
     number = models.PositiveIntegerField()
-    title = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
     description = models.TextField()
     rating = models.DecimalField(max_digits=3, decimal_places=1)
     season = models.ForeignKey(Season, on_delete=models.CASCADE)
