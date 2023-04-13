@@ -111,7 +111,7 @@ I would implement more tests, especially if going to production. These are some 
 
 # Takeaways
 
-This was my first time using Django and I loved it. Usually I've only built small personal projects with Flask. I feel like it was intuitive and the in-built database was easy to configure. The bulk of my time was learning how Django works. Although I only spent a few days coding my app, I believe that I would feel confident using Django fairly quickly. 
+This was my first time using Django and I loved it. Usually I've only built small personal projects with Flask. I feel like it was intuitive and the in-built database was easy to configure. The bulk of my time was spent learning how Django works. Although I only spent a few days coding my app, I believe that I would feel confident using Django fairly quickly. 
 
 There are lots of fun ways that I could improve user experience after my MVP is done (keeping in mind that Immfly entertainment doesn't have user login):
 
@@ -120,7 +120,7 @@ There are lots of fun ways that I could improve user experience after my MVP is 
 -	It's been a long travel day and our customers find it difficult to find the mental capacity to search through our large catalogue of movies. We could create a short quiz to help suggest entertainment. 
 -	We could also create a family friendly catalogue. Parents can rest easy knowing that their young children can find and watch media that's appropriate for them. 
 
-Thank you for the opportunity to take this take home evaluation. I look forward to speaking more to my experience with this project as well as other valuable skills and experience that I could bring to Immfly. 
+Thank you for the opportunity to work on this take home evaluation. I look forward to speaking more to my experience with this project as well as other valuable skills and experience that I could bring to Immfly. 
 
 
 
