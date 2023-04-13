@@ -19,6 +19,8 @@ class TVShow(Channel):
     
 class Season(models.Model):
     number = models.PositiveIntegerField()
+    start_date = models.DateField()
+    end_date = models.DateField()
     tvshow = models.ForeignKey(TVShow, on_delete=models.CASCADE)
 
 class Episode(models.Model):
