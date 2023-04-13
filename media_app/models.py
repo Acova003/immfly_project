@@ -16,6 +16,7 @@ class Movie(Channel):
 
 class TVShow(Channel):
     num_seasons = models.PositiveIntegerField()
+    tv_id = models.PositiveIntegerField()
     
 class Season(models.Model):
     number = models.PositiveIntegerField()
